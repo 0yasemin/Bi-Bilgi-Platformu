@@ -1,0 +1,69 @@
+body{
+	 font-family: "Nunito", sans-serif;
+     margin: 0;
+
+}
+.container {
+    width: 900px; 
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#dna, #ada, #manifest, #bilgi4 {
+    padding: 30px;
+    margin-top: 20px; 
+    border-bottom: 2px solid #e5e5e5; 
+    text-align: center;
+}
+
+#baslik {
+    font-size: 48px;
+    color: #031473; 
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.icerik {
+    text-align: center;
+}
+
+
+.icerikresim {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.aciklama {
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    text-align: justify; 
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #391BA6; 
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #F2C641;
+    color: #333;
+    transform: translateY(-2px);
+}
